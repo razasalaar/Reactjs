@@ -9,4 +9,6 @@ accountEmail = "raza@gmail.com"
 accountPassword = "314142"
 accountCity = "lahore"
 
-console.table([accountId,accountEmail,accountPassword,accountCity])
+console.table([accountId,accountEmail,accountPassword,accountCity]) 
+
+// prefer not to use var Coz block scope & funtional Scope 
