@@ -1,5 +1,5 @@
 //Data 
-let myDate = new Date()
+// let myDate = new Date()
 
 // console.log(myDate.toDateString());
 // console.log(myDate.toString());
@@ -9,5 +9,14 @@ let myDate = new Date()
 
 //create local date
 
-let myCreatedDate = new Date(2001,8,3)
-console.log(myCreatedDate.toDateString())
+// let myCreatedDate = new Date(2001,8,3)
+// console.log(myCreatedDate.toDateString())
+
+
+let newDate = new Date()
+console.log(newDate.getDate())
+
+newDate.toLocaleString('default', { 
+    weekday: "long"
+
+})
